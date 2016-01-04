@@ -23,9 +23,6 @@
       [ 8,  9, 10, 11],
       [12, 13, 14, 15],
     ];
-    var td = d3.selectAll("tbody tr")
-      .data(matrix)
-    .selectAll("td")
-      .data(function(d, i) { return d; });
+    d3.select("body").transition().style("color", "red");
   </script>
 </body>
